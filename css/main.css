@@ -1,0 +1,27 @@
+/* Overall Container */
+.container__form {
+    width: 90%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Prevent Resize */
+.textarea {
+    resize: none;
+}
+
+/* Payment Form Header */
+.form-switch:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.main-header {
+    user-select: none;
+}
+
+@media (max-width: 400px) {
+    html {
+        font-size: 13px;
+    }
+}
